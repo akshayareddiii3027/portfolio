@@ -1,9 +1,12 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import { FiDownload, FiArrowRight, FiMail } from "react-icons/fi";
+import ResumeModal from "./ResumeModal";
 
 const Hero = () => {
+  const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
   return (
     <section
       id="hero"
@@ -56,8 +59,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-slate-400 max-w-2xl text-lg mb-12 leading-relaxed"
         >
-          I&apos;m passionate about building scalable web applications and solving
-          complex problems. Constantly learning and evolving in the tech world.
+          Computer Science undergraduate with strong foundations in Java, Data Structures, and Full Stack Development. Experienced in building scalable applications using React and Java. Actively seeking a Software Development Internship to apply technical skills and grow in a professional environment.
         </motion.p>
 
         <motion.div
@@ -78,14 +80,13 @@ const Hero = () => {
             </span>
           </Link>
 
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            className="px-8 py-4 glass-card hover:bg-slate-800/50 text-white font-medium rounded-full transition-all flex items-center justify-center gap-2 w-full sm:w-auto hover-glow"
+          <button
+            onClick={() => setIsResumeModalOpen(true)}
+            className="px-8 py-4 glass-card hover:bg-slate-800/50 text-white font-medium rounded-full transition-all flex items-center justify-center gap-2 w-full sm:w-auto hover-glow cursor-pointer"
           >
             <FiDownload />
-            Download Resume
-          </a>
+            View Resume
+          </button>
 
           <Link
             to="contact"
@@ -119,6 +120,11 @@ const Hero = () => {
           </motion.div>
         </Link>
       </motion.div>
+
+      <ResumeModal 
+        isOpen={isResumeModalOpen} 
+        onClose={() => setIsResumeModalOpen(false)} 
+      />
     </section>
   );
 };

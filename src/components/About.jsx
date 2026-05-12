@@ -47,14 +47,14 @@ const About = () => {
               B.Tech CSE Student & Developer
             </h3>
             <p className="text-slate-400 mb-6 leading-relaxed text-lg">
-              Hello! I am <span className="text-white font-medium">Akshaya Reddy</span>, a passionate Computer Science Engineering student currently studying at{" "}
-              <span className="text-indigo-400 font-medium">Matrusri Engineering College</span>, Hyderabad.
+              Hello! I am <span className="text-white font-medium">Akshaya Reddy</span>, a passionate Computer Science undergraduate. I am currently pursuing my <span className="text-white font-medium">Bachelor of Technology (B.Tech) in Computer Science</span> at{" "}
+              <span className="text-indigo-400 font-medium">Matrusri Engineering College</span>, Hyderabad (2023 - 2027), maintaining a CGPA of <span className="text-white font-medium">8.0</span>.
             </p>
             <p className="text-slate-400 mb-6 leading-relaxed text-lg">
-              My core interests lie in <span className="text-white">Java, Full Stack Development</span>, and building <span className="text-white">AI projects</span>. I thrive on problem-solving and am deeply enthusiastic about Data Structures and Algorithms.
+              My core interests lie in <span className="text-white">Java, Full Stack Development</span>, and building <span className="text-white">scalable applications</span>. I thrive on problem-solving and am deeply enthusiastic about Data Structures and Algorithms.
             </p>
             <p className="text-slate-400 mb-8 leading-relaxed text-lg">
-              I am focused on continuous learning, preparing for placements, and striving to build scalable, modern, and beautiful web applications that provide seamless user experiences.
+              Passionate about writing clean, efficient, and optimized code, I am focused on continuous learning and applying my technical skills to grow in a professional environment.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

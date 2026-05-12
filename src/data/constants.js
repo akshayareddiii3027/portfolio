@@ -14,23 +14,23 @@ export const skills = [
   },
   {
     category: "Frontend",
-    items: ["HTML5", "CSS3", "React", "Tailwind CSS"],
+    items: ["HTML", "CSS", "React"],
   },
   {
     category: "Backend",
-    items: ["Core Java", "REST API Basics"],
+    items: ["Core Java", "REST API (Basics)"],
   },
   {
     category: "Database",
-    items: ["MySQL", "Firebase"],
+    items: ["MySQL", "Firebase (Basics)"],
+  },
+  {
+    category: "Core Concepts",
+    items: ["Data Structures", "Algorithms", "OOPS", "Searching & Sorting"],
   },
   {
     category: "Tools",
     items: ["Git", "GitHub", "VS Code"],
-  },
-  {
-    category: "Core Concepts",
-    items: ["Data Structures & Algorithms", "OOPS", "Searching & Sorting"],
   },
 ];
 
@@ -38,8 +38,8 @@ export const projects = [
   {
     id: 1,
     title: "AI-Based Internship Recommendation System",
-    description: "Developed a smart internship recommendation platform based on user skills and interests with personalized learning suggestions and responsive UI.",
-    tech: ["React", "Java", "Firebase", "Tailwind CSS"],
+    description: "Developed a web application that recommends internships based on user skills and interests. Implemented skill-gap analysis and generated personalized learning suggestions. Integrated backend logic using Java and connected data storage with Firebase. Designed responsive UI using React to enhance user experience.",
+    tech: ["React", "Java", "Firebase"],
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     github: "#",
     demo: "#",
@@ -47,8 +47,8 @@ export const projects = [
   {
     id: 2,
     title: "Advanced Task Management Web Application",
-    description: "Built a responsive task tracking web app with CRUD operations and dynamic UI updates.",
-    tech: ["React", "JavaScript", "CSS"],
+    description: "Built a dynamic task tracking system with CRUD operations. Implemented real-time UI updates using React state management. Designed a responsive and clean frontend interface.",
+    tech: ["React", "JavaScript"],
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     github: "#",
     demo: "#",
@@ -56,7 +56,7 @@ export const projects = [
   {
     id: 3,
     title: "Student Record Management System",
-    description: "Console-based application to manage student records efficiently using CRUD operations and object-oriented programming concepts.",
+    description: "Developed a console-based application to manage 100+ student records. Implemented CRUD operations and applied Object-Oriented Programming principles. Improved search efficiency using structured logic and data handling.",
     tech: ["Java", "OOPS"],
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     github: "#",
@@ -68,19 +68,19 @@ export const experiences = [
   {
     id: 1,
     role: "Software Development Intern",
-    company: "Tech Company", // Placeholder
-    duration: "May 2025 - Present",
+    company: "", // Resume doesn't specify
+    duration: "May 2025 - Present", // Keep placeholder if resume doesn't specify
     details: [
-      "Worked on Java debugging and optimization to improve application performance.",
-      "Assisted in frontend development using React to build dynamic user interfaces.",
-      "Used Git and collaborative workflows in an Agile team environment.",
+      "Assisted in debugging and optimizing Java-based modules.",
+      "Collaborated with developers to build and test frontend components using React.",
+      "Practiced version control and collaborative workflows using Git.",
     ],
   },
 ];
 
 export const achievements = [
-  "Solved 200+ Data Structures & Algorithms problems across various coding platforms.",
-  "Active participant in coding workshops, hackathons, and technical sessions.",
+  "Solved 200+ Data Structures and Algorithms problems.",
+  "Active participant in technical workshops and coding sessions.",
 ];
 
 export const certifications = [
@@ -89,8 +89,8 @@ export const certifications = [
 ];
 
 export const contactInfo = {
-  email: "akshaya.reddy@example.com",
-  phone: "+91 9876543210",
+  email: "gaddampally.akshaya@gmail.com",
+  phone: "+91 9177136979",
   location: "Hyderabad, India",
   github: "https://github.com/",
   linkedin: "https://linkedin.com/",
